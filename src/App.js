@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import "./style.css";
+//import WeatherFetch from "./weatherFetch";
 
 const api = {
   key: "54d4e4c9b57b42e87fe1ce4dd0b42cd9",
@@ -61,6 +62,9 @@ function App() {
           </div>
         </div>
         ) : ('')}
+        <div className="App">
+          
+          </div>
       </main>
     </div>
   );
